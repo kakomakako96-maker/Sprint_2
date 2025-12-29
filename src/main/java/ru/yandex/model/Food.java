@@ -1,4 +1,4 @@
-package model;
+package ru.yandex.model;
 
 
 public abstract class Food implements Discountable {
@@ -15,7 +15,7 @@ public abstract class Food implements Discountable {
         this.amount = newAmount;
     }
 
-    public double getPrice(){
+    public double getPrice() {
         return price;
     }
 
@@ -23,14 +23,13 @@ public abstract class Food implements Discountable {
         this.price = newPrice;
     }
 
-    public boolean isVegetarian(){
+    public boolean isVegetarian() {
         return isVegetarian;
     }
 
     public void setVegetarian(boolean newVegetarian) {
         isVegetarian = newVegetarian;
     }
-
 
 
 }

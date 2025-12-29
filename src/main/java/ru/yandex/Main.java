@@ -1,10 +1,10 @@
 package ru.yandex;
 
-import model.Apple;
-import model.Food;
-import model.Meat;
-import model.constants.Colour;
-import service.ShoppingCart;
+import ru.yandex.model.Apple;
+import ru.yandex.model.Food;
+import ru.yandex.model.Meat;
+import ru.yandex.model.constants.Colour;
+import ru.yandex.service.ShoppingCart;
 
 
 public class Main {
